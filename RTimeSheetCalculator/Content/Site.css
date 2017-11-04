@@ -1,0 +1,75 @@
+﻿body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lineIndex {
+    position:absolute;
+    left: -10px;
+    top: 9px;
+    font-weight:bold;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.panel {
+    border-width: 1px 1px 4px 1px;
+    padding: 10px;
+}
+
+
+.table-results {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #eeeeee;
+}
+
+.resultMessage {
+    padding-top: 15px;
+    font-family: monospace;
+}
+
+#queryMenu {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 400px;
+}
+
+#queryMenu .col-xs-6 {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+#queryMenu .col-xs-4 {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+#queryMenu .col-xs-2 {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+#formulaImportJson {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    right: 30px;
+    margin: auto;
+}
+
+#formulaImportJson textarea {
+    width: 100%;
+    height: 200px;
+}

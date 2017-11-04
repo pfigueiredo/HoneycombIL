@@ -1,0 +1,123 @@
+"Name"     = 'rLang - Arithmetic, Calculation and Processing Script'
+"Author"   = 'Pedro Figueiredo (T3K Software)'
+"Version"  = 'v2.3'
+"About"    = ''
+
+"Case Sensitive" = False
+"Start Symbol" = <Program>
+
+! -------------------------------------------------
+! Character Sets
+! -------------------------------------------------
+
+{ID Head}      = {Letter} + [_]
+{ID Tail}      = {Alphanumeric} + [_]
+{QueryChars}   = {Alphanumeric} + [_?*] 
+{NumberExtnd}  = [0123456789.]
+{String Chars} = {Printable} + {Printable Extended} + {HT} - ["\]             
+{eString Chars} = {Printable} + {Printable Extended}
+
+
+! -------------------------------------------------
+! Terminals
+! -------------------------------------------------
+
+Number        = {NumberExtnd}+
+Identifier    = ({ID Head}) {ID Tail}*
+StringLiteral = '"' ( {String Chars} | '\' {eString Chars} )* '"'
+Comment Start = '/*'
+Comment End   = '*/'
+Comment Line  = '//'
+
+! -------------------------------------------------
+! Rules
+! -------------------------------------------------
+
+! The grammar starts below
+<Program> ::= <AssignList>
+           | '=' <Bool Exp>        
+              
+<AssignList> ::= <AssignList> <Assign Exp>
+              | <Assign Exp>
+
+<Assign Exp> ::= Identifier '=' '{' <Bool Exp>  '}'
+              | <GlobalReference> '=' '{' <Bool Exp>  '}'
+              | <AssignCell> '=' '{' <Bool Exp>  '}'
+              | <AssingColRange> '=' '{' <Bool Exp>  '}'
+
+<Args>       ::= <Args> ',' <Bool Exp> 
+              |  <Bool Exp>                      
+
+<Bool Exp>   ::= <Bool Exp> 'AND' <Expression> !Extended: not valid excel grammar
+              |  <Bool Exp> 'OR' <Expression> !Extended: not valid excel grammar
+              |  'AND' '(' <Args> ')' | 'OR' '(' <Args> ')'
+              |  'NOT' <Expression>
+              |  <Expression>
+
+<Expression>  ::= <Expression> '>'  <Add Exp> 
+               |  <Expression> '<'  <Add Exp> 
+               |  <Expression> '<=' <Add Exp> 
+               |  <Expression> '>=' <Add Exp>
+               |  <Expression> '=' <Add Exp>    !Equal
+               |  <Expression> '<>' <Add Exp>   !Not equal
+               |  <Add Exp> 
+
+<Add Exp>     ::= <Add Exp> '+' <Mult Exp>
+               |  <Add Exp> '-' <Mult Exp>
+               |  <Add Exp> '&' <Mult Exp> !Concat strings
+               |  <Mult Exp> 
+
+<Mult Exp>    ::= <Mult Exp> '*' <Pow Exp> 
+               |  <Mult Exp> '/' <Pow Exp> 
+               |  <Pow Exp>
+
+<Pow Exp>   ::= <Pow Exp> '^' <Percent Exp>
+             | <Percent Exp>
+
+<Percent Exp> ::= <Negate Exp> '%'
+               | <Negate Exp>  
+
+<Negate Exp>  ::= '-' <Value>  
+               |  <Value> 
+
+
+<Value>       ::= Number                
+               | 'IF' '(' <Bool Exp> ')' 'THEN' <Bool Exp> 'END' !Extended: not valid excel grammar
+               | 'IF' '(' <Bool Exp> ')' 'THEN' <Bool Exp> 'ELSE' <Bool Exp> 'END' !Extended: not valid excel grammar
+               | 'IF' '(' <Args> ')' 
+               | Identifier '(' <Args> ')' 
+               | Identifier '(' ')'
+               | <RangeReference>
+               | <CellReference> 
+               | <GlobalReference> 
+               | Identifier
+               | StringLiteral
+               |  '(' <Bool Exp> ')' 
+                   
+
+
+<GlobalReference> ::= '@' Identifier '.' Identifier
+                    | '@' Identifier
+
+<RangeReference> ::= <ColReference> '[' <RowReference> ']' ':' <ColReference> '[' <RowReference> ']'
+                   | <ColReference> ':' <ColReference>
+                   | <ColReference> '$' Number ':' <ColReference> '$' Number
+                   | <SingleColRange>
+                   
+<SingleColRange> ::= <ColReference> '[' <RowReference> ':' <RowReference> ']'
+                   
+<CellReference> ::= <ColReference> '[' <RowReference> ']'
+                 | '$' Identifier
+
+
+<AssingColRange> ::= <ColReference> '[' <RowReference> ':' <RowReference> ']'
+
+<AssignCell> ::= <ColReference> '[' <RowReference> ']'
+                 | '$' Identifier
+
+<ColReference> ::= Identifier
+                | '$' Identifier
+
+<RowReference> ::= Number
+                | '-' Number
+                | '$' Number

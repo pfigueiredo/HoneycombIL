@@ -1,0 +1,208 @@
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\ApplicationInsights.config
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\csc.exe
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\System.Collections.Immutable.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\vbc.exe
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\VBCSCompiler.exe
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\roslyn\VBCSCompiler.exe.config
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\RTimeSheetCalculator.dll.config
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\RTimeSheetCalculator.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\RTimeSheetCalculator.pdb
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Antlr3.Runtime.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\EntityFramework.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\EntityFramework.SqlServer.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.Web.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.WindowsServer.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.ApplicationInsights.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Google.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Web.Infrastructure.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Newtonsoft.Json.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Owin.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Net.Http.Formatting.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Helpers.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Http.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Http.Owin.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Http.WebHost.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Mvc.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Optimization.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Razor.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.WebPages.Deployment.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.WebPages.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.WebPages.Razor.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\WebGrease.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.Web.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AI.WindowsServer.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.ApplicationInsights.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Newtonsoft.Json.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Net.Http.Formatting.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Helpers.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Http.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Http.WebHost.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Mvc.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Optimization.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Razor.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.WebPages.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.WebPages.Deployment.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.WebPages.Razor.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Antlr3.Runtime.pdb
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\EntityFramework.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\EntityFramework.SqlServer.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Google.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\System.Web.Http.Owin.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\obj\Debug\RTimeSheetCalculator.csprojResolveAssemblyReference.cache
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\obj\Debug\RTimeSheetCalculator.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\obj\Debug\RTimeSheetCalculator.pdb
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\GOLD Engine.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.abstractions.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.assert.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.core.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.execution.desktop.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.abstractions.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.assert.pdb
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.assert.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.core.pdb
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.core.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.execution.desktop.pdb
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\xunit.execution.desktop.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\RLang.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RTimeSheetCalculator\bin\RLang.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\ApplicationInsights.config
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\csc.exe
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\System.Collections.Immutable.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\System.Reflection.Metadata.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\vbc.exe
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\VBCSCompiler.exe
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\roslyn\VBCSCompiler.exe.config
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\RTimeSheetCalculator.dll.config
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\RTimeSheetCalculator.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\RTimeSheetCalculator.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Antlr3.Runtime.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\EntityFramework.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\EntityFramework.SqlServer.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\GOLD Engine.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.DependencyCollector.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.Web.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.WindowsServer.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.ApplicationInsights.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Google.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Web.Infrastructure.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Newtonsoft.Json.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Owin.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\RLang.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Net.Http.Formatting.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Helpers.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Http.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Http.Owin.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Http.WebHost.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Mvc.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Optimization.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Razor.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.WebPages.Deployment.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.WebPages.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.WebPages.Razor.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\WebGrease.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.abstractions.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.assert.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.core.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.execution.desktop.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\RLang.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.DependencyCollector.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.Web.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AI.WindowsServer.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.ApplicationInsights.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Newtonsoft.Json.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Net.Http.Formatting.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Helpers.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Http.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Http.WebHost.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Mvc.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Optimization.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Razor.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.WebPages.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.WebPages.Deployment.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.WebPages.Razor.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Antlr3.Runtime.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.abstractions.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.assert.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.assert.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.core.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.core.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.execution.desktop.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\xunit.execution.desktop.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\EntityFramework.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\EntityFramework.SqlServer.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Google.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\bin\System.Web.Http.Owin.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\obj\Debug\RTimeSheetCalculator.csprojResolveAssemblyReference.cache
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\obj\Debug\RTimeSheetCalculator.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RTimeSheetCalculator\obj\Debug\RTimeSheetCalculator.pdb

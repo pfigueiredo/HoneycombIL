@@ -1,0 +1,22 @@
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\bin\Debug\rTimeSheet_StressCaller.exe.config
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\bin\Debug\rTimeSheet_StressCaller.exe
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\bin\Debug\rTimeSheet_StressCaller.pdb
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\bin\Debug\Mono.Options.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\bin\Debug\Newtonsoft.Json.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\bin\Debug\Newtonsoft.Json.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\obj\Debug\rTimeSheet_StressCaller.csprojResolveAssemblyReference.cache
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\obj\Debug\rTimeSheet_StressCaller.exe
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\rTimeSheet_StressCaller\rTimeSheet_StressCaller\obj\Debug\rTimeSheet_StressCaller.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\bin\Debug\rTimeSheet_StressCaller.exe.config
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\obj\Debug\rTimeSheet_StressCaller.exe
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\obj\Debug\rTimeSheet_StressCaller.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\bin\Debug\rTimeSheet_StressCaller.exe
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\bin\Debug\rTimeSheet_StressCaller.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\bin\Debug\Mono.Options.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\bin\Debug\Newtonsoft.Json.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\bin\Debug\System.Net.Http.Formatting.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\bin\Debug\Newtonsoft.Json.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\bin\Debug\System.Net.Http.Formatting.xml
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\rTimeSheet_StressCaller\obj\Debug\rTimeSheet_StressCaller.csprojResolveAssemblyReference.cache

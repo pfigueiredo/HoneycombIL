@@ -1,0 +1,12 @@
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RLang\bin\Debug\RLang.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RLang\bin\Debug\RLang.pdb
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RLang\bin\Debug\GOLD Engine.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RLang\obj\Debug\RLang.dll
+c:\users\pfigueiredo\documents\visual studio 2015\Projects\RTimeSheetCalculator\RLang\obj\Debug\RLang.pdb
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\RLang\obj\Debug\RLang.csprojResolveAssemblyReference.cache
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RLang\bin\Debug\RLang.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RLang\bin\Debug\RLang.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RLang\bin\Debug\GOLD Engine.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RLang\obj\Debug\RLang.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RLang\obj\Debug\RLang.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\RLang\obj\Debug\RLang.csprojResolveAssemblyReference.cache

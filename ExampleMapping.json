@@ -1,0 +1,427 @@
+[
+  {
+    "Variable": "$LODGINGINTERNATIONLVALUE",
+    "Expression": "0 /*Colunas que têm de vir na folha de horas*/",
+    "Order": 0
+  },
+  {
+    "Variable": "$LODGINGNACIONALVALUE",
+    "Expression": "0 /*Colunas que têm de vir na folha de horas*/",
+    "Order": 1
+  },
+  {
+    "Variable": "$LODGINGINTERNATIONALDAYS",
+    "Expression": "0 /*Colunas que têm de vir na folha de horas*/",
+    "Order": 2
+  },
+  {
+    "Variable": "$LODGINGNACIONALDAYS",
+    "Expression": "0 /*Colunas que têm de vir na folha de horas*/",
+    "Order": 3
+  },
+  {
+    "Variable": "$TRAVELKM",
+    "Expression": "0 /*Colunas que têm de vir na folha de horas*/",
+    "Order": 4
+  },
+  {
+    "Variable": "$EXPENSEITEMTYPEID",
+    "Expression": "0 /*Colunas que têm de vir na folha de horas*/",
+    "Order": 5
+  },
+  {
+    "Variable": "$ExpenseValue",
+    "Expression": "0 /*Colunas que têm de vir na folha de horas*/",
+    "Order": 6
+  },
+  {
+    "Variable": "a4",
+    "Expression": "SUMIF(EXPENSEITEMTYPEID:EXPENSEITEMTYPEID, 10, ExpenseValue:ExpenseValue)",
+    "Order": 7
+  },
+  {
+    "Variable": "a5",
+    "Expression": "SUMIF(EXPENSEITEMTYPEID:EXPENSEITEMTYPEID, 2, ExpenseValue:ExpenseValue)",
+    "Order": 8
+  },
+  {
+    "Variable": "a7",
+    "Expression": "SUM(TRAVELKM:TRAVELKM)",
+    "Order": 9
+  },
+  {
+    "Variable": "HoursPerDay",
+    "Expression": "8",
+    "Order": 10
+  },
+  {
+    "Variable": "DayCount",
+    "Expression": "COUNT(DISTINCT(DATE:DATE))",
+    "Order": 11
+  },
+  {
+    "Variable": "Days",
+    "Expression": "IF(DayCount > 28, 30 , DayCount)",
+    "Order": 12
+  },
+  {
+    "Variable": "VacationDays",
+    "Expression": "COUNTIF(ISVACATION:ISVACATION, \"1\")",
+    "Order": 13
+  },
+  {
+    "Variable": "$IsRenumerated",
+    "Expression": "1 /*esta coluna tem de vir na folha de horas*/",
+    "Order": 14
+  },
+  {
+    "Variable": "NotRenumerated",
+    "Expression": "COUNTIF(IsRenumerated:IsRenumerated, \"0\")",
+    "Order": 15
+  },
+  {
+    "Variable": "a9",
+    "Expression": "($PNT * 5 / 12 *52)  -  ((30 - (Days - VacationDays - NotRenumerated)) * 8)",
+    "Order": 16
+  },
+  {
+    "Variable": "$PayFoodAllowance",
+    "Expression": "IF($WorkedHours > ($PNT / 2), 1, 0) /*Todo: check Client SAHours*/",
+    "Order": 17
+  },
+  {
+    "Variable": "a10",
+    "Expression": "SUM(PayFoodAllowance:PayFoodAllowance)",
+    "Order": 18
+  },
+  {
+    "Variable": "a13",
+    "Expression": "SUMIF(EXPENSEITEMTYPEID:EXPENSEITEMTYPEID, 5, ExpenseValue:ExpenseValue)",
+    "Order": 19
+  },
+  {
+    "Variable": "a17",
+    "Expression": "SUMIF(EXPENSEITEMTYPEID:EXPENSEITEMTYPEID, 16, ExpenseValue:ExpenseValue)",
+    "Order": 20
+  },
+  {
+    "Variable": "a25",
+    "Expression": "SUMIF(EXPENSEITEMTYPEID:EXPENSEITEMTYPEID, 8, ExpenseValue:ExpenseValue)",
+    "Order": 21
+  },
+  {
+    "Variable": "a28",
+    "Expression": "Days - VacationDays - NotRenumerated",
+    "Order": 22
+  },
+  {
+    "Variable": "a29",
+    "Expression": "VacationDays",
+    "Order": 23
+  },
+  {
+    "Variable": "$AbsenceTypeId",
+    "Expression": "0",
+    "Order": 24
+  },
+  {
+    "Variable": "$AbsenceJusfifiedHours",
+    "Expression": "0",
+    "Order": 25
+  },
+  {
+    "Variable": "$AbsenceInjusfifiedHours",
+    "Expression": "0",
+    "Order": 26
+  },
+  {
+    "Variable": "a30",
+    "Expression": "SUMIF(AbsenceTypeId:AbsenceTypeId, 16, AbsenceInjusfifiedHours:AbsenceInjusfifiedHours)",
+    "Order": 27
+  },
+  {
+    "Variable": "a34",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 16, DATE:DATE)))",
+    "Order": 28
+  },
+  {
+    "Variable": "a38",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 3, DATE:DATE)))",
+    "Order": 29
+  },
+  {
+    "Variable": "a40",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 10, DATE:DATE)))",
+    "Order": 30
+  },
+  {
+    "Variable": "a41",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceInjusfifiedHours:AbsenceInjusfifiedHours, \">0\", DATE:DATE)))",
+    "Order": 31
+  },
+  {
+    "Variable": "a42",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 1, DATE:DATE)))",
+    "Order": 32
+  },
+  {
+    "Variable": "a43",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 4, DATE:DATE)))",
+    "Order": 33
+  },
+  {
+    "Variable": "a49",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 7, DATE:DATE)))",
+    "Order": 34
+  },
+  {
+    "Variable": "a54",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 12, DATE:DATE)))",
+    "Order": 35
+  },
+  {
+    "Variable": "a55",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 5, DATE:DATE)))",
+    "Order": 36
+  },
+  {
+    "Variable": "a56",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 20, DATE:DATE)))",
+    "Order": 37
+  },
+  {
+    "Variable": "a59",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 2, DATE:DATE)))",
+    "Order": 38
+  },
+  {
+    "Variable": "a61",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceJusfifiedHours:AbsenceJusfifiedHours, \">0\", DATE:DATE)))",
+    "Order": 39
+  },
+  {
+    "Variable": "a62",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 19, DATE:DATE)))",
+    "Order": 40
+  },
+  {
+    "Variable": "a64",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 16, DATE:DATE)))",
+    "Order": 41
+  },
+  {
+    "Variable": "a69",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 8, DATE:DATE)))",
+    "Order": 42
+  },
+  {
+    "Variable": "a70",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 11, DATE:DATE)))",
+    "Order": 43
+  },
+  {
+    "Variable": "a72",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 21, DATE:DATE)))",
+    "Order": 44
+  },
+  {
+    "Variable": "$MealAllowance",
+    "Expression": "1",
+    "Order": 45
+  },
+  {
+    "Variable": "a73",
+    "Expression": "$MealAllowance[0]",
+    "Order": 46
+  },
+  {
+    "Variable": "a75",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 22, DATE:DATE)))",
+    "Order": 47
+  },
+  {
+    "Variable": "a80",
+    "Expression": "SUMIF(EXPENSEITEMTYPEID:EXPENSEITEMTYPEID, 13, ExpenseValue:ExpenseValue)",
+    "Order": 48
+  },
+  {
+    "Variable": "a81",
+    "Expression": "COUNT(DISTINCT(RANGEIF(AbsenceTypeId:AbsenceTypeId, 23, DATE:DATE)))",
+    "Order": 49
+  },
+  {
+    "Variable": "$HasSAAbove6_83",
+    "Expression": "0",
+    "Order": 50
+  },
+  {
+    "Variable": "A91",
+    "Expression": "$HasSAAbove6_83[0]",
+    "Order": 51
+  },
+  {
+    "Variable": "@bws338",
+    "Expression": "0 /*c3*/",
+    "Order": 52
+  },
+  {
+    "Variable": "@bws337",
+    "Expression": "0 /*c31*/",
+    "Order": 53
+  },
+  {
+    "Variable": "@bws342",
+    "Expression": "0 /*c45*/",
+    "Order": 54
+  },
+  {
+    "Variable": "@bws757",
+    "Expression": "a42",
+    "Order": 55
+  },
+  {
+    "Variable": "@bws760",
+    "Expression": "a43",
+    "Order": 56
+  },
+  {
+    "Variable": "@bws336",
+    "Expression": "a41",
+    "Order": 57
+  },
+  {
+    "Variable": "@bws631",
+    "Expression": "a17",
+    "Order": 58
+  },
+  {
+    "Variable": "@bws628",
+    "Expression": "a80",
+    "Order": 59
+  },
+  {
+    "Variable": "@bws758",
+    "Expression": "a69",
+    "Order": 60
+  },
+  {
+    "Variable": "@bws634",
+    "Expression": "a4",
+    "Order": 61
+  },
+  {
+    "Variable": "@bws639",
+    "Expression": "a13",
+    "Order": 62
+  },
+  {
+    "Variable": "@bws720",
+    "Expression": "a5",
+    "Order": 63
+  },
+  {
+    "Variable": "@bws761",
+    "Expression": "a54",
+    "Order": 64
+  },
+  {
+    "Variable": "@bws626",
+    "Expression": "a7",
+    "Order": 65
+  },
+  {
+    "Variable": "@bws756",
+    "Expression": "a70",
+    "Order": 66
+  },
+  {
+    "Variable": "@bws762",
+    "Expression": "a34",
+    "Order": 67
+  },
+  {
+    "Variable": "@bws763",
+    "Expression": "a55",
+    "Order": 68
+  },
+  {
+    "Variable": "@bws632",
+    "Expression": "a25",
+    "Order": 69
+  },
+  {
+    "Variable": "@bws759",
+    "Expression": "a56",
+    "Order": 70
+  },
+  {
+    "Variable": "@bws754",
+    "Expression": "a49",
+    "Order": 71
+  },
+  {
+    "Variable": "@bws755",
+    "Expression": "a40",
+    "Order": 72
+  },
+  {
+    "Variable": "@bws864",
+    "Expression": "IF(a73=1,a10,0)",
+    "Order": 73
+  },
+  {
+    "Variable": "@bws371",
+    "Expression": "IF(a73=0,a10,0)",
+    "Order": 74
+  },
+  {
+    "Variable": "@bws373",
+    "Expression": "IF(a73=0,a10,0)",
+    "Order": 75
+  },
+  {
+    "Variable": "@bws335",
+    "Expression": "a61-a34-a38-a42-a43-a55-a59-a62-a64-a72-a75-a49-a70-a40-IF(a81<0,0,a61)-a34-a38-a42-a43-a55-a59-a62-a64-a72-a75-a49-a70-a40-a81",
+    "Order": 76
+  },
+  {
+    "Variable": "@bws382",
+    "Expression": "IF(a73=1 and a91=1,a10,0)",
+    "Order": 77
+  },
+  {
+    "Variable": "@bws752",
+    "Expression": "a59+a72+a75",
+    "Order": 78
+  },
+  {
+    "Variable": "@bws411",
+    "Expression": "a29",
+    "Order": 79
+  },
+  {
+    "Variable": "@bws312",
+    "Expression": "a28-n11",
+    "Order": 80
+  },
+  {
+    "Variable": "@bws410",
+    "Expression": "0 /*c11*/",
+    "Order": 81
+  },
+  {
+    "Variable": "@bws323",
+    "Expression": "0 /*c24*/",
+    "Order": 82
+  },
+  {
+    "Variable": "@bws797",
+    "Expression": "0 /*c50*/",
+    "Order": 83
+  },
+  {
+    "Variable": "@bws377",
+    "Expression": "0 /*c44*/",
+    "Order": 84
+  }
+]

@@ -1,0 +1,174 @@
+﻿{
+  "Expressions": [
+    {
+      "Variable": "$IsDayOff",
+      "Expression": "0",
+      "Order": 0
+    },
+
+    {
+      "Variable": "$WorkedHours",
+      "Expression": "0",
+      "Order": 1
+    },
+    {
+      "Variable": "$IsAbsence",
+      "Expression": "0",
+      "Order": 2
+    },
+    {
+      "Variable": "$UnJustifiedAbsenceHours",
+      "Expression": "0",
+      "Order": 3
+    },
+    {
+      "Variable": "$ExtraHours_50",
+      "Expression": "0",
+      "Order": 4
+    },
+    {
+      "Variable": "$Bool01",
+      "Expression": "0",
+      "Order": 5
+    },
+    {
+      "Variable": "$IsVacation",
+      "Expression": "0",
+      "Order": 6
+    },
+    {
+      "Variable": "$PNT",
+      "Expression": "0",
+      "Order": 7
+    },
+    {
+      "Variable": "$DATE",
+      "Expression": "0",
+      "Order": 8
+    },
+
+    {
+      "Variable": "$ISREMUNERATED",
+      "Expression": "0",
+      "Order": 9
+    },
+
+    {
+      "Variable": "maxPNT",
+      "Expression": "MAX(PNT:PNT)",
+      "Order": 10
+    },
+    {
+      "Variable": "countDATE",
+      "Expression": "COUNT(DATE:DATE)",
+      "Order": 11
+    },
+    {
+      "Variable": "sumISREMUNERATED",
+      "Expression": "SUM(ISREMUNERATED:ISREMUNERATED)",
+      "Order": 12
+    },
+    {
+      "Variable": "a1a",
+      "Expression": "IF (countDATE >= 28 and countDATE <= 31, 30, countDATE)",
+      "Order": 13
+    },
+
+    {
+      "Variable": "a1",
+      "Expression": "(maxPNT*5/12*52) -  (30 - (a1a - n21 - sumISREMUNERATED ))* 8",
+      "Order": 14
+    },
+    {
+      "Variable": "n4",
+      "Expression": "SUM(IsDayOff:IsDayOff)",
+      "Order": 15
+    },
+    {
+      "Variable": "n46",
+      "Expression": "SUM(WorkedHours:WorkedHours)",
+      "Order": 16
+    },
+    {
+      "Variable": "n27",
+      "Expression": "SUM(IsAbsence:IsAbsence)",
+      "Order": 17
+    },
+    {
+      "Variable": "n3",
+      "Expression": "SUM(UnJustifiedAbsenceHours:UnJustifiedAbsenceHours)",
+      "Order": 18
+    },
+    {
+      "Variable": "n44",
+      "Expression": "SUM(ExtraHours_50:ExtraHours_50)",
+      "Order": 19
+    },
+    {
+      "Variable": "n11",
+      "Expression": "SUM(Bool01:Bool01)",
+      "Order": 20
+    },
+    {
+      "Variable": "n21",
+      "Expression": "SUM(IsVacation:IsVacation)",
+      "Order": 21
+    },
+    {
+      "Variable": "@bws312",
+      "Expression": "n4",
+      "Order": 22
+    },
+    {
+      "Variable": "@bws313",
+      "Expression": "a1",
+      "Order": 23
+    },
+    {
+      "Variable": "@bws314",
+      "Expression": "n46",
+      "Order": 24
+    },
+    {
+      "Variable": "@bws323",
+      "Expression": "n27",
+      "Order": 25
+    },
+    {
+      "Variable": "@bws338",
+      "Expression": "n3",
+      "Order": 26
+    },
+    {
+      "Variable": "@bws343",
+      "Expression": "n44-n11",
+      "Order": 27
+    },
+    {
+      "Variable": "@bws411",
+      "Expression": "n21",
+      "Order": 28
+    }
+
+  ],
+  "Context": [
+    {
+      "Data": [
+        {
+          "IsDayOff": "0",
+          "WorkedHours": "50",
+          "IsAbsence": "0",
+          "UnJustifiedAbsenceHours": "1",
+          "ExtraHours_50": "2",
+          "Bool01": "0",
+          "IsVacation": "0",
+          "PNT": "40",
+          "DATE": "2016-01-21 00:00:00.000",
+          "ISREMUNERATED": "0"
+        }
+      ],
+      "Variables": { },
+      "DebugExecutionResult": true
+    }
+  ]
+}

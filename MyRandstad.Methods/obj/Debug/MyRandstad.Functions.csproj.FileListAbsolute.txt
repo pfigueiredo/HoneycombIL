@@ -1,0 +1,16 @@
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\MyRandstad.Methods\bin\Debug\MyRandstad.Functions.dll
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\MyRandstad.Methods\bin\Debug\MyRandstad.Functions.pdb
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\MyRandstad.Methods\bin\Debug\RLang.dll
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\MyRandstad.Methods\bin\Debug\GOLD Engine.dll
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\MyRandstad.Methods\bin\Debug\RLang.pdb
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\MyRandstad.Methods\obj\Debug\MyRandstad.Functions.csprojResolveAssemblyReference.cache
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\MyRandstad.Methods\obj\Debug\MyRandstad.Functions.dll
+C:\Users\pfigueiredo\Documents\Visual Studio 2015\Projects\RTimeSheetCalculator\MyRandstad.Methods\obj\Debug\MyRandstad.Functions.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\MyRandstad.Methods\bin\Debug\MyRandstad.Functions.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\MyRandstad.Methods\bin\Debug\MyRandstad.Functions.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\MyRandstad.Methods\bin\Debug\RLang.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\MyRandstad.Methods\bin\Debug\GOLD Engine.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\MyRandstad.Methods\bin\Debug\RLang.pdb
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\MyRandstad.Methods\obj\Debug\MyRandstad.Functions.csprojResolveAssemblyReference.cache
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\MyRandstad.Methods\obj\Debug\MyRandstad.Functions.dll
+C:\Work\t3k\randstad\TimeSheet\rtimesheetcalculator\MyRandstad.Methods\obj\Debug\MyRandstad.Functions.pdb

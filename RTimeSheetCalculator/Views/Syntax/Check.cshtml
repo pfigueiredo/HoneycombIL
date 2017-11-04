@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Check";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .table-results {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #eeeeee;
+    }
+</style>
+
+<div ng-app="TimeSheetApp" ng-controller="PageController" ng-form="mainForm" ng-cloak>
+    
+    <!---->
+    <div st-table="displayDataTable" st-safe-src="dataTable" class=".table-results">
+        <table class="table table-condensed table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th ng-repeat="col in getColumns()">{{col}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="row in displayDataTable">
+                    <td ng-repeat="(key, value) in row">{{value}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div st-pagination="" st-items-by-page="itemsByPage" st-displayed-pages="7"></div>
+    </div>
+
+    <div class="panel form-group">
+            <div class="row" ng-repeat="line in expressionLines">
+
+                <div class="col-sm-2">
+                    <div class="lineIndex">{{$index}}</div>
+                    <input ng-style="getVariableInputStyle(line)" id="var_{{$index}}" 
+                           class="form-control" type="text" ng-model="line.var" ng-model-options="{debounce:100}" placeholder="Identificador" />
+                </div>
+                <div class="col-xs-8">
+                    <input id="expression_{{$index}}" class="form-control" type="text" ng-model="line.expression" ng-model-options="{debounce:100}" placeholder="Expressão" />
+                </div>
+                <div class="col-sm-2">
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" tabindex="-1" class="btn btn-default" ng-click="moveLineUp(line)"><i class="glyphicon glyphicon-circle-arrow-up"></i></button>
+                        <button type="button" tabindex="-1" class="btn btn-default" ng-click="moveLineDown(line)"><i class="glyphicon glyphicon-circle-arrow-down"></i></button>
+                        <button type="button" tabindex="-1" class="btn btn-danger" ng-click="deleteLine(line)"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-info" ng-click="addLine()">Adicionar</button>
+            <button class="btn btn-danger" ng-click="clearExpressions()">Limpar</button>
+            <button class="btn btn-success" ng-click="apply()">Aplicar</button>
+            <button class="btn btn-default" ng-click="downloadAssembly()">Compile Assemby</button>
+        </div>
+        <pre ng-style="getResultMessageStyle()">{{ resultMessage }}</pre>
+        <br />
+        <pre><strong>Expressão:</strong><br />{{expression}}<br /><br />{{executionResult | json}}
+    </pre>
+
+</div>
+
+<form id="DownloadForm" method="post" action="~/api/Syntax/Assembly/" enctype="application/x-www-form-urlencoded" target="_blank">
+    <input id="ExpressionFrmElement" name="Expression" type="hidden" />
+    <input id="ExpressionFrmElement" name="Execute" type="hidden" value="false" />
+</form>
+
+@section Scripts {
+    <script src="~/Scripts/App/RepeatAreaFunctions.js"></script>
+    <script src="~/Scripts/Controllers/SyntaxCheckController.js"></script>
+}
+
+
+
+

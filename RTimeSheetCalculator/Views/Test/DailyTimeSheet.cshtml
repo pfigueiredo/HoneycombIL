@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "Daily Time Sheet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    
+
+</style>
+
+<div ng-app="TimeSheetApp" ng-controller="PageController" ng-form="mainForm" ng-cloak style="position:relative">
+
+    <div id="queryMenu">
+        <div class="col-xs-6">
+            <div class="input-group input-group-sm">
+                <span class="input-group-addon">Nº</span>
+                <input type="text" class="form-control" ng-model="qEmployeeNum" />
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="input-group input-group-sm">
+                <span class="input-group-addon">SocId</span>
+                <input type="text" class="form-control" ng-model="qSocId" />
+                <span class="input-group-btn">
+                    <button class="btn btn-default" ng-click="queryTimeSheet()"><i class="glyphicon glyphicon-search"></i></button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <h2>Daily Timesheet</h2>
+
+    <div st-table="displayDailyTimeSheet" st-safe-src="dailyTimeSheet" class=".table-results">
+        <table class="table table-condensed table-striped table-bordered table-responsive">
+            <thead>
+                <tr>
+                    <th ng-repeat="col in getColumns()">{{col}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="row in displayDailyTimeSheet">
+                    <td ng-repeat="(key, value) in row">{{value}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div st-pagination="" st-items-by-page="itemsByPage" st-displayed-pages="7"></div>
+    </div>
+
+    <div class="panel form-group">
+        <div class="row" ng-repeat="line in expressions">
+
+            <div class="col-sm-2">
+                <div class="lineIndex">{{$index}}</div>
+                <input ng-style="getVariableInputStyle(line)" id="var_{{$index}}" class="form-control" type="text" ng-model="line.Variable" ng-model-options="{debounce:100}" placeholder="Identificador" />
+            </div>
+            <div class="col-xs-8">
+                <input id="expression_{{$index}}" class="form-control" type="text" ng-model="line.Expression" ng-model-options="{debounce:100}" placeholder="Expressão" />
+            </div>
+            <div class="col-sm-2">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" tabindex="-1" class="btn btn-default" ng-click="moveLineUp(line)"><i class="glyphicon glyphicon-circle-arrow-up"></i></button>
+                    <button type="button" tabindex="-1" class="btn btn-default" ng-click="moveLineDown(line)"><i class="glyphicon glyphicon-circle-arrow-down"></i></button>
+                    <button type="button" tabindex="-1" class="btn btn-danger" ng-click="deleteLine(line)"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-info" ng-click="addLine()">Adicionar</button>
+        <button class="btn btn-danger" ng-click="clearExpressions()">Limpar</button>
+        <button class="btn btn-default" ng-click="test()">Calculate</button>
+        <button class="btn btn-default" ng-click="downloadAssembly()">Compile Assemby</button>
+        <button class="btn btn-xs btn-link" ng-click="show_jsonImport()">Import/Export Json</button>
+        <br /><span class="resultMessage" ng-style="getResultMessageStyle()">{{ resultMessage }}</span>
+    </div>
+
+    <h3>Result:</h3>
+    <pre>{{executionResult | json}}</pre>
+
+    <h3>Expression:</h3>
+    <pre>{{expressions | json}}</pre>
+
+    <h3>Last API Call</h3>
+    <pre>{{callData | json}}</pre>
+
+    <div id="formulaImportJson" class="panel" style="display:none">
+        <h3>Import Json</h3>
+        <textarea ng-model="jsonImport"></textarea>
+        <button class="btn btn-warning" ng-click="cancel_jsonImport()">Cancel</button>
+        <button class="btn btn-success" ng-click="import_jsonImport()">Import</button>
+    </div>
+
+</div>
+
+<form id="DownloadForm" method="post" action="~/api/Syntax/Assembly/" enctype="application/x-www-form-urlencoded" target="_blank">
+    <input id="ExpressionFrmElement" name="Expression" type="hidden" />
+    <input id="ExpressionFrmElement" name="Execute" type="hidden" value="false" />
+</form>
+
+
+@section Scripts {
+    <script src="~/Scripts/App/RepeatAreaFunctions.js"></script>
+    <script src="~/Scripts/Controllers/TestDailyTimeSheetController.js"></script>
+}
+
