@@ -1,6 +1,6 @@
 # README #
 
-Honeycomb DSL (IL) - Excel compatible, IL compiled DSL for TimeSheet and Payroll Calculations
+Honeycomb DSL (IL) - Excel compatible, MSIL compiled DSL for TimeSheet and Payroll Calculations
 
 ## About this version
 
